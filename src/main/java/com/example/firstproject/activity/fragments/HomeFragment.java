@@ -24,13 +24,13 @@ public class HomeFragment extends Fragment {
     ArrayList<MatchItem> matchesList;
 
     public HomeFragment() {
-        // Required empty public constructor
+        
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate layout
+        
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
          newsListView  = view.findViewById(R.id.list_news);
