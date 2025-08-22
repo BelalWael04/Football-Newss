@@ -22,7 +22,7 @@ public class MatchesFragment extends Fragment {
     ArrayList<MatchItem> englishMatches, spanishMatches;
 
     public MatchesFragment() {
-        // Required empty public constructor
+        
     }
 
     @Override
