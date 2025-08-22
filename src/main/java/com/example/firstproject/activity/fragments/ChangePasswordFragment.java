@@ -16,7 +16,7 @@ import com.example.firstproject.activity.LoginScreen;
 public class ChangePasswordFragment extends Fragment {
 
     public ChangePasswordFragment() {
-        // Required empty public constructor
+
     }
 
     @Override
@@ -44,10 +44,10 @@ public class ChangePasswordFragment extends Fragment {
                 return;
             }
 
-            // هنا تضع كود تغيير كلمة المرور
+            
             Toast.makeText(getContext(), "تم تغيير كلمة المرور بنجاح", Toast.LENGTH_SHORT).show();
 
-            // الانتقال إلى صفحة تسجيل الدخول
+            
             Intent intent = new Intent(getActivity(), LoginScreen.class);
             startActivity(intent);
 
