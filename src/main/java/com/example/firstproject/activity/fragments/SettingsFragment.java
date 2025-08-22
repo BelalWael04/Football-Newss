@@ -58,7 +58,7 @@ public class SettingsFragment extends Fragment {
 
             Intent i = new Intent(getActivity(), LoginScreen.class);
             startActivity(i);
-            requireActivity().finish(); // إغلاق الصفحة الحالية حتى لا يرجع لها بالرجوع
+            requireActivity().finish(); 
         });
 
         // زر عن التطبيق
