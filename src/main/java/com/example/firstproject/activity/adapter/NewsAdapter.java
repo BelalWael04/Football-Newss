@@ -1,7 +1,7 @@
 package com.example.firstproject.activity.adapter;
 
 import com.example.firstproject.R;
-import com.example.firstproject.activity.models.NewsItem; // أو المسار الصحيح حسب مكان الكلاس
+import com.example.firstproject.activity.models.NewsItem;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -65,3 +65,4 @@ public class NewsAdapter extends BaseAdapter {
     }
 
 }
+
