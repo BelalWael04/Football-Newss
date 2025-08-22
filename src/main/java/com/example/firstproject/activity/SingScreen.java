@@ -55,7 +55,7 @@ public class SingScreen extends AppCompatActivity {
                 return;
             }
 
-            // هنا يمكن حفظ البيانات (مثلاً SharedPreferences أو قاعدة بيانات)
+            
             Toast.makeText(SingScreen.this, "تم إنشاء الحساب بنجاح", Toast.LENGTH_SHORT).show();
 
             // الانتقال لتسجيل الدخول
